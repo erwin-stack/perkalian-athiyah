@@ -35,7 +35,7 @@ const QUESTION_BANK = [
     hint: '💡 Ingat: 3 × 5 artinya "5 diulang sebanyak 3 kali".',
     options: [
       { letter:'A', text:'3 + 3 + 3 + 3 + 3 = 15' },
-      { letter:'B', text:'5 + 5 + 5 = 15 ✓' },
+      { letter:'B', text:'5 + 5 + 5 = 15' },
       { letter:'C', text:'3 + 5 = 8' },
       { letter:'D', text:'5 × 5 × 5 = 125' },
     ],
@@ -55,7 +55,7 @@ const QUESTION_BANK = [
     hint: '💡 "4 mobil, masing-masing berisi 4 roda" → 4 × 4.',
     options: [
       { letter:'A', text:'4 + 4 = 8' },
-      { letter:'B', text:'4 × 4 = 16 ✓' },
+      { letter:'B', text:'4 × 4 = 16' },
       { letter:'C', text:'4 + 4 + 4 + 4 + 4 = 20' },
       { letter:'D', text:'4 × 4 × 4 = 64' },
     ],
@@ -71,7 +71,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'5 + 5 + 5 = 15' },
       { letter:'B', text:'3 + 5 = 8' },
-      { letter:'C', text:'3 + 3 + 3 + 3 + 3 = 15 ✓' },
+      { letter:'C', text:'3 + 3 + 3 + 3 + 3 = 15' },
       { letter:'D', text:'5 × 3 × 2 = 30' },
     ],
     answer: 'C',
@@ -87,7 +87,7 @@ const QUESTION_BANK = [
     question: 'Ada 2 vas bunga. Setiap vas berisi 7 bunga. Berapa total bunga dan bagaimana cara penjumlahannya?',
     hint: '💡 2 vas × 7 bunga = 7 dijumlah 2 kali.',
     options: [
-      { letter:'A', text:'7 + 7 = 14 ✓' },
+      { letter:'A', text:'7 + 7 = 14' },
       { letter:'B', text:'2 + 7 = 9' },
       { letter:'C', text:'2 + 2 + 2 + 2 + 2 + 2 + 2 = 14' },
       { letter:'D', text:'7 × 7 = 49' },
@@ -107,7 +107,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'5 × 6 = 30' },
       { letter:'B', text:'6 + 5 = 11' },
-      { letter:'C', text:'6 × 5 = 30 ✓' },
+      { letter:'C', text:'6 × 5 = 30' },
       { letter:'D', text:'6 × 6 = 36' },
     ],
     answer: 'C',
@@ -124,7 +124,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 = 24' },
       { letter:'B', text:'8 + 3 = 11' },
-      { letter:'C', text:'8 + 8 + 8 = 24 ✓' },
+      { letter:'C', text:'8 + 8 + 8 = 24' },
       { letter:'D', text:'8 + 8 + 8 + 8 = 32' },
     ],
     answer: 'C',
@@ -137,7 +137,7 @@ const QUESTION_BANK = [
     question: 'Ada 7 tas siswa. Setiap tas berisi 2 buku. Berapa total buku dan apa penjumlahannya?',
     options: [
       { letter:'A', text:'7 + 7 = 14' },
-      { letter:'B', text:'2 + 2 + 2 + 2 + 2 + 2 + 2 = 14 ✓' },
+      { letter:'B', text:'2 + 2 + 2 + 2 + 2 + 2 + 2 = 14' },
       { letter:'C', text:'7 + 2 = 9' },
       { letter:'D', text:'2 × 2 × 7 = 28' },
     ],
@@ -154,7 +154,7 @@ const QUESTION_BANK = [
     question: 'Di satu kompleks ada 4 rumah. Setiap rumah ada 3 jendela. Penulisan perkaliannya yang menunjukkan "4 rumah, tiap rumah 3 jendela" adalah…',
     options: [
       { letter:'A', text:'3 × 4 = 12' },
-      { letter:'B', text:'4 × 3 = 12 ✓' },
+      { letter:'B', text:'4 × 3 = 12' },
       { letter:'C', text:'4 + 3 = 7' },
       { letter:'D', text:'3 + 4 + 3 = 10' },
     ],
@@ -172,7 +172,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'9 + 9 + 9 + 9 + 9 + 9 = 54' },
       { letter:'B', text:'6 + 9 = 15' },
-      { letter:'C', text:'6 + 6 + 6 + 6 + 6 + 6 + 6 + 6 + 6 = 54 ✓' },
+      { letter:'C', text:'6 + 6 + 6 + 6 + 6 + 6 + 6 + 6 + 6 = 54' },
       { letter:'D', text:'9 × 9 = 81' },
     ],
     answer: 'C',
@@ -188,7 +188,7 @@ const QUESTION_BANK = [
     question: 'Ibu menyiapkan 2 kotak bekal. Tiap kotak berisi 10 bakso. Pernyataan yang BENAR adalah…',
     options: [
       { letter:'A', text:'2 × 10 artinya 2+2+2+2+2+2+2+2+2+2 = 20' },
-      { letter:'B', text:'2 × 10 artinya 10 + 10 = 20 ✓' },
+      { letter:'B', text:'2 × 10 artinya 10 + 10 = 20' },
       { letter:'C', text:'2 × 10 artinya 10 × 2 = 200' },
       { letter:'D', text:'2 × 10 artinya 2 + 10 = 12' },
     ],
@@ -204,7 +204,7 @@ const QUESTION_BANK = [
     visual: '🐔🐔🐔🐔🐔🐔',
     question: 'Di kandang ada 6 ekor ayam. Tiap ayam bertelur 4 butir. Cara penjumlahan yang tepat untuk menghitung total telur adalah…',
     options: [
-      { letter:'A', text:'4 + 4 + 4 + 4 + 4 + 4 = 24 ✓' },
+      { letter:'A', text:'4 + 4 + 4 + 4 + 4 + 4 = 24' },
       { letter:'B', text:'6 + 6 + 6 + 6 = 24' },
       { letter:'C', text:'6 + 4 = 10' },
       { letter:'D', text:'4 × 6 × 2 = 48' },
@@ -222,7 +222,7 @@ const QUESTION_BANK = [
     question: 'Toko kue menyusun kue dalam 8 nampan. Tiap nampan ada 5 kue. Perkalian yang TEPAT adalah…',
     options: [
       { letter:'A', text:'5 × 8 = 40' },
-      { letter:'B', text:'8 × 5 = 40 ✓' },
+      { letter:'B', text:'8 × 5 = 40' },
       { letter:'C', text:'8 + 5 = 13' },
       { letter:'D', text:'8 × 8 = 64' },
     ],
@@ -240,7 +240,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'3 + 3 + 3 + ... (40 kali) = 120' },
       { letter:'B', text:'40 + 3 = 43' },
-      { letter:'C', text:'40 + 40 + 40 = 120 ✓' },
+      { letter:'C', text:'40 + 40 + 40 = 120' },
       { letter:'D', text:'3 × 3 × 40 = 360' },
     ],
     answer: 'C',
@@ -257,7 +257,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'12 + 4 = 16' },
       { letter:'B', text:'4 + 4 + 4 + ... (12 kali) = 48' },
-      { letter:'C', text:'12 + 12 + 12 + 12 = 48 ✓' },
+      { letter:'C', text:'12 + 12 + 12 + 12 = 48' },
       { letter:'D', text:'4 × 12 × 4 = 192' },
     ],
     answer: 'C',
@@ -271,7 +271,7 @@ const QUESTION_BANK = [
     hint: '💡 Cari yang SALAH!',
     options: [
       { letter:'A', text:'5 × 6 = 6+6+6+6+6 = 30' },
-      { letter:'B', text:'5 × 6 = 5+5+5+5+5+5 = 30 ✓ (ini SALAH)' },
+      { letter:'B', text:'5 × 6 = 5+5+5+5+5+5 = 30' },
       { letter:'C', text:'Total permen = 30' },
       { letter:'D', text:'Penjumlahan benar: 6 dijumlah 5 kali' },
     ],
@@ -287,8 +287,8 @@ const QUESTION_BANK = [
     hint: '💡 Hitung berapa kali 4 muncul. Itulah faktor pertama.',
     options: [
       { letter:'A', text:'4 × 4 = 16' },
-      { letter:'B', text:'3 × 4 = 12 ✓' },
-      { letter:'C', text:'4 × 3 = 12 (maknanya beda)' },
+      { letter:'B', text:'3 × 4 = 12' },
+      { letter:'C', text:'4 × 3 = 12 (walaupun sama hasilnya, tapi maknanya beda)' },
       { letter:'D', text:'4 + 3 = 7' },
     ],
     answer: 'B',
@@ -303,7 +303,7 @@ const QUESTION_BANK = [
     question: 'Penjumlahan 7 + 7 + 7 + 7 + 7 = 35 jika ditulis perkalian yang PALING TEPAT adalah…',
     options: [
       { letter:'A', text:'7 × 5 = 35' },
-      { letter:'B', text:'5 × 7 = 35 ✓' },
+      { letter:'B', text:'5 × 7 = 35' },
       { letter:'C', text:'7 × 7 = 49' },
       { letter:'D', text:'35 × 1 = 35' },
     ],
@@ -319,7 +319,7 @@ const QUESTION_BANK = [
     question: '2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 = 18. Bentuk perkaliannya adalah…',
     options: [
       { letter:'A', text:'2 × 9 = 18' },
-      { letter:'B', text:'9 × 2 = 18 ✓' },
+      { letter:'B', text:'9 × 2 = 18' },
       { letter:'C', text:'18 × 1 = 18' },
       { letter:'D', text:'2 × 2 × 2 = 8' },
     ],
@@ -336,7 +336,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'10 + 4 = 14' },
       { letter:'B', text:'10 × 4 = 40' },
-      { letter:'C', text:'4 × 10 = 40 ✓' },
+      { letter:'C', text:'4 × 10 = 40' },
       { letter:'D', text:'4 × 4 = 16' },
     ],
     answer: 'C',
@@ -348,7 +348,7 @@ const QUESTION_BANK = [
     question: '6 + 6 = 12. Bentuk perkalian yang PALING TEPAT adalah…',
     options: [
       { letter:'A', text:'6 × 1 = 6' },
-      { letter:'B', text:'2 × 6 = 12 ✓' },
+      { letter:'B', text:'2 × 6 = 12' },
       { letter:'C', text:'6 × 2 = 12 (makna beda)' },
       { letter:'D', text:'12 × 1 = 12' },
     ],
@@ -363,7 +363,7 @@ const QUESTION_BANK = [
       { letter:'A', text:'9 × 9 = 81' },
       { letter:'B', text:'27 × 1 = 27' },
       { letter:'C', text:'9 × 3 = 27' },
-      { letter:'D', text:'3 × 9 = 27 ✓' },
+      { letter:'D', text:'3 × 9 = 27' },
     ],
     answer: 'D',
     explanation: '9 diulang <strong>3 kali</strong> → <em>3 × 9 = 27</em>.',
@@ -374,7 +374,7 @@ const QUESTION_BANK = [
     question: '5 + 5 + 5 + 5 + 5 + 5 = 30. Bentuk perkalian yang paling tepat adalah…',
     options: [
       { letter:'A', text:'5 × 6 = 30' },
-      { letter:'B', text:'6 × 5 = 30 ✓' },
+      { letter:'B', text:'6 × 5 = 30' },
       { letter:'C', text:'30 × 1 = 30' },
       { letter:'D', text:'5 + 6 = 11' },
     ],
@@ -391,7 +391,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'8 × 8 = 64' },
       { letter:'B', text:'56 × 1' },
-      { letter:'C', text:'7 × 8 = 56 ✓' },
+      { letter:'C', text:'7 × 8 = 56' },
       { letter:'D', text:'8 × 7 = 56' },
     ],
     answer: 'C',
@@ -404,7 +404,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'3 × 10 = 30' },
       { letter:'B', text:'30 × 3 = 90' },
-      { letter:'C', text:'10 × 3 = 30 ✓' },
+      { letter:'C', text:'10 × 3 = 30' },
       { letter:'D', text:'3 × 3 = 9' },
     ],
     answer: 'C',
@@ -416,7 +416,7 @@ const QUESTION_BANK = [
     question: '12 + 12 + 12 = 36. Bentuk perkaliannya adalah…',
     options: [
       { letter:'A', text:'12 × 12 = 144' },
-      { letter:'B', text:'3 × 12 = 36 ✓' },
+      { letter:'B', text:'3 × 12 = 36' },
       { letter:'C', text:'12 × 3 = 36' },
       { letter:'D', text:'36 + 3 = 39' },
     ],
@@ -430,7 +430,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'15 × 5 = 75' },
       { letter:'B', text:'5 + 15 = 20' },
-      { letter:'C', text:'5 × 15 = 75 ✓' },
+      { letter:'C', text:'5 × 15 = 75' },
       { letter:'D', text:'15 × 15 = 225' },
     ],
     answer: 'C',
@@ -444,7 +444,7 @@ const QUESTION_BANK = [
       { letter:'A', text:'20 × 20 = 400' },
       { letter:'B', text:'20 + 2 = 22' },
       { letter:'C', text:'20 × 2 = 40' },
-      { letter:'D', text:'2 × 20 = 40 ✓' },
+      { letter:'D', text:'2 × 20 = 40' },
     ],
     answer: 'D',
     explanation: '20 diulang <strong>2 kali</strong> → <em>2 × 20 = 40</em>.',
@@ -458,7 +458,7 @@ const QUESTION_BANK = [
     hint: '💡 4 × 6 artinya "6 diulang sebanyak 4 kali".',
     options: [
       { letter:'A', text:'4 + 4 + 4 + 4 + 4 + 4 = 24' },
-      { letter:'B', text:'6 + 6 + 6 + 6 = 24 ✓' },
+      { letter:'B', text:'6 + 6 + 6 + 6 = 24' },
       { letter:'C', text:'4 × 4 × 4 = 64' },
       { letter:'D', text:'6 + 4 = 10' },
     ],
@@ -476,7 +476,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'3 + 3 + 3 + 3 + 3 + 3 + 3 = 21' },
       { letter:'B', text:'7 + 3 = 10' },
-      { letter:'C', text:'7 + 7 + 7 = 21 ✓' },
+      { letter:'C', text:'7 + 7 + 7 = 21' },
       { letter:'D', text:'3 + 7 + 3 + 7 = 20' },
     ],
     answer: 'C',
@@ -493,7 +493,7 @@ const QUESTION_BANK = [
       { letter:'A', text:'5 + 5 = 10' },
       { letter:'B', text:'2 + 2 = 4' },
       { letter:'C', text:'2 + 2 + 2 + 2 + 2 = 10' },
-      { letter:'D', text:'2 + 2 + 2 + 2 + 2 = 10 ✓' },
+      { letter:'D', text:'2 + 2 + 2 + 2 + 2 = 10' },
     ],
     answer: 'D',
     explanation: '5 × 2: angka kedua (2) diulang sebanyak angka pertama (5) kali → <em>2+2+2+2+2 = 10</em>.',
@@ -507,7 +507,7 @@ const QUESTION_BANK = [
     question: '6 × 8 = 48. Penjumlahan berulangnya adalah…',
     options: [
       { letter:'A', text:'6 + 6 + 6 + 6 + 6 + 6 + 6 + 6 = 48' },
-      { letter:'B', text:'8 + 8 + 8 + 8 + 8 + 8 = 48 ✓' },
+      { letter:'B', text:'8 + 8 + 8 + 8 + 8 + 8 = 48' },
       { letter:'C', text:'6 + 8 = 14' },
       { letter:'D', text:'8 × 8 = 64' },
     ],
@@ -524,7 +524,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 = 18' },
       { letter:'B', text:'2 + 9 = 11' },
-      { letter:'C', text:'9 + 9 = 18 ✓' },
+      { letter:'C', text:'9 + 9 = 18' },
       { letter:'D', text:'9 + 2 = 11' },
     ],
     answer: 'C',
@@ -539,7 +539,7 @@ const QUESTION_BANK = [
     question: '7 × 3 = 21. Penjumlahan berulang yang TEPAT untuk 7 × 3 adalah…',
     options: [
       { letter:'A', text:'7 + 7 + 7 = 21' },
-      { letter:'B', text:'3 + 3 + 3 + 3 + 3 + 3 + 3 = 21 ✓' },
+      { letter:'B', text:'3 + 3 + 3 + 3 + 3 + 3 + 3 = 21' },
       { letter:'C', text:'3 + 7 = 10' },
       { letter:'D', text:'7 + 3 + 7 = 17' },
     ],
@@ -554,7 +554,7 @@ const QUESTION_BANK = [
     type: 'ke-juml',
     question: '8 × 4 = 32. Cara penjumlahannya…',
     options: [
-      { letter:'A', text:'4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 = 32 ✓' },
+      { letter:'A', text:'4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 = 32' },
       { letter:'B', text:'8 + 8 + 8 + 8 = 32' },
       { letter:'C', text:'4 + 8 = 12' },
       { letter:'D', text:'32 + 0 = 32' },
@@ -572,7 +572,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'9 + 9 + 9 + 9 + 9 = 45' },
       { letter:'B', text:'5 + 9 = 14' },
-      { letter:'C', text:'5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 = 45 ✓' },
+      { letter:'C', text:'5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 = 45' },
       { letter:'D', text:'9 + 5 + 9 = 23' },
     ],
     answer: 'C',
@@ -587,7 +587,7 @@ const QUESTION_BANK = [
     question: '10 × 3 = 30. Penjumlahan berulangnya adalah…',
     options: [
       { letter:'A', text:'10 + 10 + 10 = 30' },
-      { letter:'B', text:'3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 = 30 ✓' },
+      { letter:'B', text:'3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 = 30' },
       { letter:'C', text:'10 + 3 = 13' },
       { letter:'D', text:'3 × 3 × 3 = 27' },
     ],
@@ -603,7 +603,7 @@ const QUESTION_BANK = [
     question: '1 × 8 = 8. Penjumlahan berulang yang benar untuk 1 × 8…',
     options: [
       { letter:'A', text:'1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 8' },
-      { letter:'B', text:'8 = 8 ✓' },
+      { letter:'B', text:'8 = 8' },
       { letter:'C', text:'8 + 8 = 16' },
       { letter:'D', text:'1 × 0 = 0' },
     ],
@@ -619,7 +619,7 @@ const QUESTION_BANK = [
     question: '4 × 0 = 0. Penjumlahan berulangnya…',
     options: [
       { letter:'A', text:'0 = 0' },
-      { letter:'B', text:'0 + 0 + 0 + 0 = 0 ✓' },
+      { letter:'B', text:'0 + 0 + 0 + 0 = 0' },
       { letter:'C', text:'4 + 4 + 4 + 4 = 16' },
       { letter:'D', text:'0 + 4 = 4' },
     ],
@@ -632,7 +632,7 @@ const QUESTION_BANK = [
     question: '3 × 12 = 36. Cara penjumlahan berulangnya…',
     options: [
       { letter:'A', text:'3 + 3 + 3 + ... (12 kali) = 36' },
-      { letter:'B', text:'12 + 12 + 12 = 36 ✓' },
+      { letter:'B', text:'12 + 12 + 12 = 36' },
       { letter:'C', text:'12 + 3 = 15' },
       { letter:'D', text:'36 + 12 = 48' },
     ],
@@ -652,7 +652,7 @@ const QUESTION_BANK = [
     hint: '💡 "3 kali sehari" = wadah (3), "1 tablet" = isi (1).',
     options: [
       { letter:'A', text:'1 + 1 = 2 tablet' },
-      { letter:'B', text:'3 × 1 = 1+1+1 = 3 tablet ✓' },
+      { letter:'B', text:'3 × 1 = 1+1+1 = 3 tablet' },
       { letter:'C', text:'3 + 1 = 4 tablet' },
       { letter:'D', text:'1 × 1 = 1 tablet' },
     ],
@@ -669,7 +669,7 @@ const QUESTION_BANK = [
     question: 'Obat diminum 2 kali sehari, 3 tablet setiap minum. Dalam 1 hari, berapa total tablet diminum?',
     hint: '💡 2 kali minum × 3 tablet = ?',
     options: [
-      { letter:'A', text:'2 × 3 = 3+3 = 6 tablet ✓' },
+      { letter:'A', text:'2 × 3 = 3+3 = 6 tablet' },
       { letter:'B', text:'3 × 2 = 2+2+2 = 6 tablet (makna beda)' },
       { letter:'C', text:'2 + 3 = 5 tablet' },
       { letter:'D', text:'2 tablet saja' },
@@ -688,7 +688,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'4 + 3 = 7 sesi' },
       { letter:'B', text:'3 × 3 = 9 sesi' },
-      { letter:'C', text:'4 × 3 = 3+3+3+3 = 12 sesi ✓' },
+      { letter:'C', text:'4 × 3 = 3+3+3+3 = 12 sesi' },
       { letter:'D', text:'3 × 4 = 4+4+4 = 12 sesi (bisa juga benar)' },
     ],
     answer: 'C',
@@ -705,7 +705,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'5 + 7 = 12 km' },
       { letter:'B', text:'5 × 7 = 5+5+5+5+5+5+5 = 35 km' },
-      { letter:'C', text:'7 × 5 = 5+5+5+5+5+5+5 = 35 km ✓' },
+      { letter:'C', text:'7 × 5 = 5+5+5+5+5+5+5 = 35 km' },
       { letter:'D', text:'7 + 7 + 7 + 7 + 7 = 35 km' },
     ],
     answer: 'C',
@@ -723,7 +723,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'3 + 2 = 5 kali' },
       { letter:'B', text:'2 × 2 × 3 = 12 kali' },
-      { letter:'C', text:'3 × 2 = 2+2+2 = 6 kali ✓' },
+      { letter:'C', text:'3 × 2 = 2+2+2 = 6 kali' },
       { letter:'D', text:'2 × 3 = 3+3 = 6 kali (makna beda)' },
     ],
     answer: 'C',
@@ -736,7 +736,7 @@ const QUESTION_BANK = [
     question: 'Tim lari terdiri dari 5 orang. Setiap orang lari mengelilingi lapangan sebanyak 4 putaran. Total putaran seluruh tim adalah…',
     options: [
       { letter:'A', text:'5 + 4 = 9 putaran' },
-      { letter:'B', text:'5 × 4 = 4+4+4+4+4 = 20 putaran ✓' },
+      { letter:'B', text:'5 × 4 = 4+4+4+4+4 = 20 putaran' },
       { letter:'C', text:'4 × 5 = 5+5+5+5 = 20 putaran (makna beda)' },
       { letter:'D', text:'5 × 5 = 25 putaran' },
     ],
@@ -750,7 +750,7 @@ const QUESTION_BANK = [
     question: 'Di toko ada 3 kotak pensil. Setiap kotak berisi 12 pensil. Berapa total pensil di toko?',
     options: [
       { letter:'A', text:'12 + 3 = 15 pensil' },
-      { letter:'B', text:'3 × 12 = 12+12+12 = 36 pensil ✓' },
+      { letter:'B', text:'3 × 12 = 12+12+12 = 36 pensil' },
       { letter:'C', text:'3 + 3 + 3 = 9 pensil' },
       { letter:'D', text:'12 × 12 = 144 pensil' },
     ],
@@ -764,7 +764,7 @@ const QUESTION_BANK = [
     question: 'Bimo berlatih gitar 45 menit sehari, selama 4 hari. Total waktu latihan Bimo adalah…',
     options: [
       { letter:'A', text:'45 + 4 = 49 menit' },
-      { letter:'B', text:'4 × 45 = 45+45+45+45 = 180 menit ✓' },
+      { letter:'B', text:'4 × 45 = 45+45+45+45 = 180 menit' },
       { letter:'C', text:'45 × 45 = 2025 menit' },
       { letter:'D', text:'4 + 4 + 4 = 12 menit' },
     ],
@@ -779,7 +779,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'4 + 7 = 11 hari' },
       { letter:'B', text:'7 × 4 = 4+4+4+4+4+4+4 = 28 hari' },
-      { letter:'C', text:'4 × 7 = 7+7+7+7 = 28 hari ✓' },
+      { letter:'C', text:'4 × 7 = 7+7+7+7 = 28 hari' },
       { letter:'D', text:'7 × 7 = 49 hari' },
     ],
     answer: 'C',
@@ -795,7 +795,7 @@ const QUESTION_BANK = [
     question: 'Ibu membeli 5 kantong beras. Tiap kantong harganya Rp8.000. Total yang dibayar ibu adalah…',
     options: [
       { letter:'A', text:'5 + 8.000 = Rp8.005' },
-      { letter:'B', text:'5 × 8.000 = 8.000+8.000+8.000+8.000+8.000 = Rp40.000 ✓' },
+      { letter:'B', text:'5 × 8.000 = 8.000+8.000+8.000+8.000+8.000 = Rp40.000' },
       { letter:'C', text:'8.000 × 8.000 = Rp64.000.000' },
       { letter:'D', text:'5 × 5 = 25 (tidak relevan)' },
     ],
@@ -810,7 +810,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'6 + 30 = 36 siswa' },
       { letter:'B', text:'30 × 6 = 6+6+6+... (30 kali) = 180 siswa' },
-      { letter:'C', text:'6 × 30 = 30+30+30+30+30+30 = 180 siswa ✓' },
+      { letter:'C', text:'6 × 30 = 30+30+30+30+30+30 = 180 siswa' },
       { letter:'D', text:'6 × 6 = 36 siswa' },
     ],
     answer: 'C',
@@ -828,7 +828,7 @@ const QUESTION_BANK = [
     question: '"3 × 2" dan "2 × 3" sama-sama hasilnya 6. Manakah pernyataan yang BENAR tentang kedua perkalian ini?',
     options: [
       { letter:'A', text:'Keduanya identik: maknanya sama persis.' },
-      { letter:'B', text:'3×2 = 2+2+2; sedangkan 2×3 = 3+3. Hasil sama, makna beda. ✓' },
+      { letter:'B', text:'3×2 = 2+2+2; sedangkan 2×3 = 3+3. Hasil sama, makna beda.' },
       { letter:'C', text:'3×2 lebih besar dari 2×3.' },
       { letter:'D', text:'3×2 = 3+3; sedangkan 2×3 = 2+2+2.' },
     ],
@@ -845,7 +845,7 @@ const QUESTION_BANK = [
     hint: '💡 Bayangkan 3 kantong isi 2, vs 2 kantong isi 3!',
     options: [
       { letter:'A', text:'Karena 3 lebih besar dari 2.' },
-      { letter:'B', text:'Karena yang jadi "wadah" dan "isi" berbeda di setiap kasus. ✓' },
+      { letter:'B', text:'Karena yang jadi "wadah" dan "isi" berbeda di setiap kasus.' },
       { letter:'C', text:'Sebenarnya tidak ada bedanya sama sekali.' },
       { letter:'D', text:'Karena hasil perkaliannya pasti berbeda.' },
     ],
@@ -860,7 +860,7 @@ const QUESTION_BANK = [
     options: [
       { letter:'A', text:'Penjumlahan dua angka yang berbeda.' },
       { letter:'B', text:'Cara mengurangi angka besar.' },
-      { letter:'C', text:'Penjumlahan yang diulang-ulang (berulang). ✓' },
+      { letter:'C', text:'Penjumlahan yang diulang-ulang (berulang).' },
       { letter:'D', text:'Cara membagi sesuatu menjadi sama rata.' },
     ],
     answer: 'C',
@@ -873,7 +873,7 @@ const QUESTION_BANK = [
     hint: '💡 Ingat rumus: a × b = b+b+b... (sebanyak a kali).',
     options: [
       { letter:'A', text:'Angka yang diulang (isi).' },
-      { letter:'B', text:'Berapa kali pengulangan (jumlah pengulangan). ✓' },
+      { letter:'B', text:'Berapa kali pengulangan (jumlah pengulangan).' },
       { letter:'C', text:'Hasil perkalian.' },
       { letter:'D', text:'Tidak ada peran khusus.' },
     ],
@@ -885,7 +885,7 @@ const QUESTION_BANK = [
     type: 'ke-kali',
     question: 'Pernyataan mana yang BENAR tentang penjumlahan berulang?',
     options: [
-      { letter:'A', text:'5 + 5 + 5 = 3 × 5, bukan 5 × 3 ✓' },
+      { letter:'A', text:'5 + 5 + 5 = 3 × 5, bukan 5 × 3' },
       { letter:'B', text:'5 + 5 + 5 = 5 × 3, bukan 3 × 5' },
       { letter:'C', text:'5 + 5 + 5 bisa ditulis 5 × 3 ATAU 3 × 5 (sama saja)' },
       { letter:'D', text:'5 + 5 + 5 = 5 + 3 = 8' },
