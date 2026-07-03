@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌟 Kuis Perkalian Seru!</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Dekorasi background -->
+  <div class="bg-deco" aria-hidden="true">
+    <span class="deco d1">✖️</span>
+    <span class="deco d2">➕</span>
+    <span class="deco d3">🌟</span>
+    <span class="deco d4">🍎</span>
+    <span class="deco d5">✖️</span>
+    <span class="deco d6">🎯</span>
+  </div>
+
+  <!-- ═══════════════════════════════════
+       LAYAR 1 · HALAMAN DEPAN
+  ═══════════════════════════════════ -->
+  <div id="screenStart" class="screen active">
+    <div class="card card--start">
+      <div class="mascot" aria-hidden="true">🦊</div>
+      <h1 class="title-main">Kuis Perkalian<br/><span class="title-accent">Dasar Seru!</span></h1>
+      <p class="subtitle">Belajar bahwa perkalian adalah<br/><strong>penjumlahan yang diulang-ulang</strong></p>
+
+      <div class="concept-strip">
+        <div class="concept-pill">3 × 2 = <strong>2+2+2</strong></div>
+        <div class="concept-arrow">≠</div>
+        <div class="concept-pill">2 × 3 = <strong>3+3</strong></div>
+      </div>
+      <p class="concept-note">Hasilnya sama, tapi <em>maknanya beda!</em></p>
+
+      <div class="setting-row">
+        <label class="setting-label" for="qCount">Jumlah soal:</label>
+        <select id="qCount" class="setting-select">
+          <option value="10" selected>10 soal</option>
+          <option value="15">15 soal</option>
+          <option value="20">20 soal (semua!)</option>
+        </select>
+      </div>
+
+      <button class="btn btn--primary btn--big" onclick="startGame()">
+        🚀 Mulai Main!
+      </button>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════
+       LAYAR 2 · GAME
+  ═══════════════════════════════════ -->
+  <div id="screenGame" class="screen">
+    <!-- Top bar -->
+    <div class="topbar">
+      <div class="topbar-left">
+        <span class="topbar-icon">🦊</span>
+        <div class="progress-wrap">
+          <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <span class="progress-label" id="progressLabel">Soal 1 dari 10</span>
+        </div>
+      </div>
+      <div class="score-badge">
+        ⭐ <span id="scoreDisplay">0</span>
+      </div>
+    </div>
+
+    <!-- Kartu soal -->
+    <div class="game-area">
+      <div class="question-card" id="questionCard">
+        <!-- Badge jenis soal -->
+        <div class="q-type-badge" id="qTypeBadge">📖 Soal Cerita</div>
+
+        <!-- Visual ikon (untuk soal bergambar) -->
+        <div class="q-visual" id="qVisual"></div>
+
+        <!-- Teks soal -->
+        <p class="q-text" id="qText"></p>
+
+        <!-- Penjumlahan berulang hint (opsional) -->
+        <div class="q-hint" id="qHint"></div>
+      </div>
+
+      <!-- Pilihan jawaban -->
+      <div class="choices-grid" id="choicesGrid"></div>
+
+      <!-- Navigasi -->
+      <button class="btn btn--next" id="btnNext" onclick="nextQuestion()" style="display:none">
+        Soal Berikutnya →
+      </button>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════
+       LAYAR 3 · HASIL AKHIR
+  ═══════════════════════════════════ -->
+  <div id="screenResult" class="screen">
+    <div class="card card--result" id="resultCard">
+      <div class="result-mascot" id="resultMascot">🦊</div>
+      <h2 class="result-title" id="resultTitle">Selesai!</h2>
+      <div class="result-score-big" id="resultScoreBig"></div>
+      <p class="result-msg" id="resultMsg"></p>
+
+      <!-- Rincian soal -->
+      <div class="result-stats">
+        <div class="stat-box stat-correct">
+          <span class="stat-num" id="statCorrect">0</span>
+          <span class="stat-lbl">✅ Benar</span>
+        </div>
+        <div class="stat-box stat-wrong">
+          <span class="stat-num" id="statWrong">0</span>
+          <span class="stat-lbl">❌ Salah</span>
+        </div>
+      </div>
+
+      <!-- Efek sempurna -->
+      <div class="perfect-banner" id="perfectBanner" style="display:none">
+        🎉 SEMPURNA! 🎉 LUAR BIASA! 🌟 HEBAT! 🎊 KAMU JUARA! 🏆
+      </div>
+
+      <div class="result-btns">
+        <button class="btn btn--primary" onclick="restartGame()">🔄 Main Lagi</button>
+        <button class="btn btn--secondary" onclick="goHome()">🏠 Menu Utama</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════
+       MODAL FEEDBACK
+  ═══════════════════════════════════ -->
+  <div id="feedbackOverlay" class="feedback-overlay" onclick="closeFeedback()">
+    <div class="feedback-modal" id="feedbackModal" onclick="event.stopPropagation()">
+      <div class="feedback-icon" id="feedbackIcon">❌</div>
+      <h3 class="feedback-title" id="feedbackTitle">Hampir Benar!</h3>
+      <p class="feedback-body" id="feedbackBody"></p>
+      <div class="feedback-correct-wrap" id="feedbackCorrectWrap">
+        <span class="feedback-correct-label">Jawaban yang benar:</span>
+        <span class="feedback-correct-ans" id="feedbackCorrectAns"></span>
+      </div>
+      <button class="btn btn--primary" onclick="closeFeedback()">Oke, Paham! 👍</button>
+    </div>
+  </div>
+
+  <!-- Konfetti container -->
+  <div id="confettiWrap" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
